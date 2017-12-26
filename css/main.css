@@ -157,8 +157,6 @@ header.masthead {
   -o-background-size: cover;
   background-size: cover; }
   header.masthead .logo {
-    padding-left: 200px;
-    padding-right: 200px;
     padding-top: 75px; }
   header.masthead .intro-text {
     padding-left: 20px;
