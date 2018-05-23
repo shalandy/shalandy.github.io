@@ -76,17 +76,17 @@
            <div class="social">
               <ul class="list-inline social-buttons">
                 <li class="list-inline-item">
-                  <a href="https://www.linkedin.com/in/shalandy-zhang/">
+                  <a href="https://www.linkedin.com/in/shalandy-zhang/" target="_blank">
                     <i class="fa fa-linkedin"></i>
                   </a>
                 </li>
                 <li class="list-inline-item">
-                  <a href="https://www.behance.net/shalandye306/">
+                  <a href="https://www.behance.net/shalandye306/" target="_blank">
                     <i class="fa fa-behance"></i>
                   </a>
                 </li>
                 <li class="list-inline-item">
-                  <a href="https://www.facebook.com/shalandy.zhang">
+                  <a href="https://www.facebook.com/shalandy.zhang" target="_blank">
                     <i class="fa fa-facebook"></i>
                   </a>
                 </li>
@@ -151,7 +151,7 @@
         <div class="row">
           <div class="col-lg-12 text-center">
             <h2 class="section-heading text-uppercase">Projects</h2>
-            <h3 class="section-subheading text-muted">A collection of featured visual design projects.</h3>
+            <h3 class="section-subheading text-muted">A collection of featured design/development projects.</h3>
           </div>
         </div>
         <div class="row">
@@ -162,11 +162,11 @@
                   <i class="fa fa-plus fa-3x"></i>
                 </div>
               </div>
-              <img class="img-fluid" src="img/portfolio/thumbnail-ocf.jpg" alt="">
+              <img class="img-fluid" src="img/portfolio/thumbnail-id.jpg" alt="">
             </a>
             <div class="portfolio-caption">
-              <h4>Open Computing Facility</h4>
-              <p class="text-muted">Logo Design</p>
+              <h4>Imagical Website</h4>
+              <p class="text-muted">Web Development</p>
             </div>
           </div>
           <div class="col-md-4 col-sm-6 portfolio-item">
@@ -190,6 +190,20 @@
                   <i class="fa fa-plus fa-3x"></i>
                 </div>
               </div>
+              <img class="img-fluid" src="img/portfolio/thumbnail-ocf.jpg" alt="">
+            </a>
+            <div class="portfolio-caption">
+              <h4>Open Computing Facility</h4>
+              <p class="text-muted">Logo Design</p>
+            </div>
+          </div>
+          <div class="col-md-4 col-sm-6 portfolio-item">
+            <a class="portfolio-link" data-toggle="modal" href="#portfolioModal4">
+              <div class="portfolio-hover">
+                <div class="portfolio-hover-content">
+                  <i class="fa fa-plus fa-3x"></i>
+                </div>
+              </div>
               <img class="img-fluid" src="img/portfolio/thumbnail-pbl.jpg" alt="">
             </a>
             <div class="portfolio-caption">
@@ -198,7 +212,7 @@
             </div>
           </div>
           <div class="col-md-4 col-sm-6 portfolio-item">
-            <a class="portfolio-link" data-toggle="modal" href="#portfolioModal4">
+            <a class="portfolio-link" data-toggle="modal" href="#portfolioModal5">
               <div class="portfolio-hover">
                 <div class="portfolio-hover-content">
                   <i class="fa fa-plus fa-3x"></i>
@@ -212,7 +226,7 @@
             </div>
           </div>
           <div class="col-md-4 col-sm-6 portfolio-item">
-            <a class="portfolio-link" data-toggle="modal" href="#portfolioModal5">
+            <a class="portfolio-link" data-toggle="modal" href="#portfolioModal6">
               <div class="portfolio-hover">
                 <div class="portfolio-hover-content">
                   <i class="fa fa-plus fa-3x"></i>
@@ -225,6 +239,7 @@
               <p class="text-muted">Graphic, UI/UX Design</p>
             </div>
           </div>
+          <!--
           <div class="col-md-4 col-sm-6 portfolio-item">
             <a class="portfolio-link" data-toggle="modal" href="#portfolioModal6">
               <div class="portfolio-hover">
@@ -238,7 +253,7 @@
               <h4>Digital Imaging</h4>
               <p class="text-muted">Coursework</p>
             </div>
-          </div>
+          </div> -->
         </div>
       </div>
     </section>
@@ -575,18 +590,46 @@
               <div class="col-lg-8 mx-auto">
                 <div class="modal-body">
                   <!-- Project Details Go Here -->
-                  <h2 class="text-uppercase">Open Computing Facility</h2>
-                  <p class="item-intro text-muted">Logo Redesign</p>
-                  <p>The Open Computing Facility is a student resource at UC Berkeley since 1989 that has
-                    provided thousands of students with free printing and computing. As Marketing Director of a senate office
-                    in UC Berkeley’s student government (ASUC), I had the opportunity to redesign the decades-old
-                    logo in an abbreviated and wordmark form.</p>
-                    <img class="img-fluid d-block mx-auto" src="img/portfolio/full-ocf.jpg" alt="">
+                  <h2 class="text-uppercase">Imagical Website</h2>
+                  <p class="item-intro text-muted">Innovative Design Web Team</p>
+                  <div class="row">
+                    <div class="col-lg-12 text-center">
+                      <ul class="list-inline social-buttons">
+                        <li class="list-inline-item">
+                          <a href="https://imagical.netlify.com/" target="_blank">
+                            <i class="fa fa-link"></i>
+                          </a>
+                        </li>
+                        <li class="list-inline-item">
+                          <a href="https://github.com/InnoD-WebTier/imagical" target="_blank">
+                            <i class="fa fa-github-alt"></i>
+                          </a>
+                        </li>
+                      </ul>
+                  <p>As a member of Spring 2018 Web Devlopment Team in <a href="https://innovativedesign.club/">Innovative Design</a>
+                  , I was responsible for the design and devlopment of Imagical's new contact page for both prospective members
+                and sponsors. The following are drafts created by Figma.</p>
+                <img class="img-fluid d-block mx-auto" src="img/portfolio/full-id-figma.jpg" alt="">
+                <p>After getting the design approved, I started building the site using <a href="https://www.gatsbyjs.org/"
+                  >Gatsby</a>, a React framework and static-site generator. I used bootstrap to create separate tabs for
+                each function of contact, and used the <a href="https://airtable.com/api">Airtable API</a> to automatically
+              populate a table within an Airtable base on submit of each respective form. Additionally, I embeded the application
+            form into the website, as an upgrade to the former Word Document application process.</p>
+              <img class="img-fluid d-block mx-auto" src="img/portfolio/full-id-final.jpg" alt="">
+              <p>The <a href="https://imagical.netlify.com/"
+                >website</a> is currently hosted on Netlify, and the Github repository can be found
+                <a href="https://github.com/InnoD-WebTier/imagical">here</a>.</p>
+                  <p class="item-intro text-muted">In collaboration with Christopher Franco, Trevor Aquino, Mariel Aquino, and Ethan Lee.</p>
+
+                  <!--  <p class="item-intro text-muted">Event Work (Print)</p>
+                    <img class="img-fluid d-block mx-auto" src="img/portfolio/full-bnga-header.jpg" alt="">
                    <ul class="list-inline">
-                    <li>Top: Progress/Iterations</li>
-                    <li>Middle: Abbreviated</li>
-                    <li>Bottom: Wordmark</li>
+                    <li>Top to bottom:</li>
+                    <li>Dragon Ball FighterZ Banner</li>
                   </ul>
+                  <p class="item-intro text-muted">Social Media/Marketing (Digital)</p>
+                  <img class="img-fluid d-block mx-auto" src="img/portfolio/full-bnga-header.jpg" alt="">
+                  -->
                   <button class="btn btn-primary" data-dismiss="modal" type="button">
                     <i class="fa fa-times"></i>
                     Close Project</button>
@@ -597,6 +640,7 @@
         </div>
       </div>
     </div>
+
 
     <!-- Modal 2 -->
     <div class="portfolio-modal modal fade" id="portfolioModal2" tabindex="-1" role="dialog" aria-hidden="true">
@@ -660,6 +704,43 @@
               <div class="col-lg-8 mx-auto">
                 <div class="modal-body">
                   <!-- Project Details Go Here -->
+                  <h2 class="text-uppercase">Open Computing Facility</h2>
+                  <p class="item-intro text-muted">Logo Redesign</p>
+                  <p>The Open Computing Facility is a student resource at UC Berkeley since 1989 that has
+                    provided thousands of students with free printing and computing. As Marketing Director of a senate office
+                    in UC Berkeley’s student government (ASUC), I had the opportunity to redesign the decades-old
+                    logo in an abbreviated and wordmark form.</p>
+                    <img class="img-fluid d-block mx-auto" src="img/portfolio/full-ocf.jpg" alt="">
+                   <ul class="list-inline">
+                    <li>Top: Progress/Iterations</li>
+                    <li>Middle: Abbreviated</li>
+                    <li>Bottom: Wordmark</li>
+                  </ul>
+                  <button class="btn btn-primary" data-dismiss="modal" type="button">
+                    <i class="fa fa-times"></i>
+                    Close Project</button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Modal 4 -->
+    <div class="portfolio-modal modal fade" id="portfolioModal4" tabindex="-1" role="dialog" aria-hidden="true">
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="close-modal" data-dismiss="modal">
+            <div class="lr">
+              <div class="rl"></div>
+            </div>
+          </div>
+          <div class="container">
+            <div class="row">
+              <div class="col-lg-8 mx-auto">
+                <div class="modal-body">
+                  <!-- Project Details Go Here -->
                   <h2 class="text-uppercase">Berkeley PBL</h2>
                   <p class="item-intro text-muted">Website and Logo Rebranding</p>
                   <p>Berkeley PBL-FBLA (Phi Beta Lambda) is a collegiate professional development organization also known as
@@ -689,8 +770,8 @@
       </div>
     </div>
 
-    <!-- Modal 4 -->
-    <div class="portfolio-modal modal fade" id="portfolioModal4" tabindex="-1" role="dialog" aria-hidden="true">
+    <!-- Modal 5 -->
+    <div class="portfolio-modal modal fade" id="portfolioModal5" tabindex="-1" role="dialog" aria-hidden="true">
       <div class="modal-dialog">
         <div class="modal-content">
           <div class="close-modal" data-dismiss="modal">
@@ -724,8 +805,8 @@
       </div>
     </div>
 
-    <!-- Modal 5 -->
-    <div class="portfolio-modal modal fade" id="portfolioModal5" tabindex="-1" role="dialog" aria-hidden="true">
+    <!-- Modal 6 -->
+    <div class="portfolio-modal modal fade" id="portfolioModal6" tabindex="-1" role="dialog" aria-hidden="true">
       <div class="modal-dialog">
         <div class="modal-content">
           <div class="close-modal" data-dismiss="modal">
@@ -775,7 +856,7 @@
       </div>
     </div>
 
-    <!-- Modal 6 -->
+    <!-- Old Modal 1
     <div class="portfolio-modal modal fade" id="portfolioModal6" tabindex="-1" role="dialog" aria-hidden="true">
       <div class="modal-dialog">
         <div class="modal-content">
@@ -788,7 +869,6 @@
             <div class="row">
               <div class="col-lg-8 mx-auto">
                 <div class="modal-body">
-                  <!-- Project Details Go Here -->
                   <h2 class="text-uppercase">Digital Imaging</h2>
                   <p class="item-intro text-muted">High School Design Course</p>
                   <p>In my senior year of high school, I took Digital Imaging as an art elective; little
@@ -816,7 +896,7 @@
           </div>
         </div>
       </div>
-    </div>
+    </div> -->
 
     <!-- Bootstrap core JavaScript -->
     <script src="vendor/jquery/jquery.min.js"></script>
